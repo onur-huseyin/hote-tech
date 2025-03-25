@@ -8,7 +8,6 @@ import {
 import { PatronCards } from "@/components/ui/patronCards"
 
 import Link from "next/link";
-import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards"
 
 
 const Footer = () => {
@@ -46,11 +45,6 @@ const Footer = () => {
   return (
     <>
     <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
     </div>
     <div>
       <PatronCards/>

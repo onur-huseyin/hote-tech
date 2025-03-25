@@ -94,7 +94,7 @@ export default {
   		}
   	}
   },
-  plugins: [animate, require("tailwindcss-animate")],
+  plugins: [animate, require("tailwindcss-animate"), ("tailwind-scrollbar-hide'")],
 } satisfies Config;
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
 function addVariablesForColors({ addBase, theme }: any) {

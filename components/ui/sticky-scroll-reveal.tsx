@@ -4,8 +4,6 @@ import Image from "next/image";
 import createGlobe from "cobe";
 import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
-import { IconBrandYoutubeFilled } from "@tabler/icons-react";
-import Link from "next/link";
 
 export function FeaturesSectionDemo() {
   const features = [
@@ -39,7 +37,6 @@ export function FeaturesSectionDemo() {
           {features.map((feature) => (
             <FeatureCard key={feature.title} className={feature.className}>
               <FeatureTitle>{feature.title}</FeatureTitle>
-              <FeatureDescription>{feature.description}</FeatureDescription>
               <div className=" h-full w-full">{feature.skeleton}</div>
             </FeatureCard>
           ))}

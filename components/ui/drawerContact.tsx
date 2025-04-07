@@ -61,7 +61,7 @@ export const DrawerContact = () => {
    </Drawer.Trigger>
    <Drawer.Portal>
      <Drawer.Overlay className="fixed inset-0 bg-black/40" />
-     <Drawer.Content className="bg-white flex flex-col fixed bottom-0 left-0 right-0 max-h-[82vh] rounded-t-[10px]">
+     <Drawer.Content className="bg-white flex flex-col z-50 fixed bottom-0 left-0 right-0 max-h-[82vh] rounded-t-[10px]">
        <div className="max-w-md w-full mx-auto overflow-auto p-4 rounded-t-[10px]">
          <Drawer.Handle />
          <Drawer.Title className="font-medium text-gray-900 mt-8">İletişme geçin!</Drawer.Title>
